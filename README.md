@@ -55,10 +55,26 @@ Find all package(s) that match the specified pattern.
    <p>Find-Package -Path 'C:\git\PowerShell\EnvironmentVariables\' -Pattern '*Microsoft*'</p>
 </details>
 <details>
-   <summary>Get all packages by repository name</summary>
+   <summary>Get packages by major versionfor current directory</summary>
+   <p>Find-Package -Path 'C:\git\PowerShell\EnvironmentVariables\' -Pattern '*2.*'</p>
+</details>
+<details>
+   <summary>Get packages by major/minor version for current directory</summary>
+   <p>Find-Package -Path 'C:\git\PowerShell\EnvironmentVariables\' -Pattern '*2.1*'</p>
+</details>
+<details>
+   <summary>Get all packages for repository name</summary>
    <p>Find-Package -Repository 'EnvironmentVariables'</p>
 </details>
 <details>
-   <summary>Get Microsoft packages by repository name</summary>
+   <summary>Get Microsoft packages for repository name</summary>
    <p>Find-Package -Repository 'EnvironmentVariables' -Pattern '*Microsoft*'</p>
+</details>
+<details>
+   <summary>Get packages by major version for repository name</summary>
+   <p>Find-Package -Repository 'EnvironmentVariables' -Pattern '*2.*'</p>
+</details>
+<details>
+   <summary>Get packages by major/minor version for repository name</summary>
+   <p>Find-Package -Repository 'EnvironmentVariables' -Pattern '*2.1*'</p>
 </details>
