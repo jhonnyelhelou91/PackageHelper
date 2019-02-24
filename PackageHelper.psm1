@@ -67,7 +67,7 @@ Param(
 	$repository,
 	
     [string]
-    $pattern = $null
+    $pattern = '*'
 );
     
     If (![string]:IsNullOrEmpty($repository))
